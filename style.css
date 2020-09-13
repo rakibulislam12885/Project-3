@@ -1,0 +1,50 @@
+.navbar {
+    box-shadow: 2px 2px 5px #3292A6
+
+}
+
+
+.nav-link {
+    text-transform: capitalize;
+    font-size: 1.3em;
+}
+.nav-item {
+    margin-right: 20px;
+}
+.nav-item:last-child {
+    margin-right: none;
+    
+}
+/* dream */
+#dream {
+    background: url('images/mountains.jpg') no-repeat 0 0 / 100% 100%;
+    background-attachment: fixed;
+}
+.overlay {
+ background: rgba(50, 146, 156, 0.7);
+ margin-top: 80px;
+ z-index: -9999;
+}
+#subscribe input{
+    width: 50%;
+}
+
+/* box */
+.four-card:hover {
+    background: #3292A6;
+    color: white;
+
+}
+
+/* card-icon */
+.card-icon i {
+    font-size: 1.5em;
+    padding: 30px;
+}
+.card-icon:hover {
+    background: #3292A6;
+    color: white;
+}
+.card-icon:hover i {
+    color: white;
+}
